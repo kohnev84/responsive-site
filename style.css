@@ -1,0 +1,217 @@
+@import 'https://necolas.github.io/normalize.css/8.0.1/normalize.css';
+
+body{
+    background-color: rgb(246, 228, 206);
+}
+
+header{
+    background-color: gray;
+    width: 40%;
+    height: 70px;
+    margin: 0 auto;
+    border: 3px solid black;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    font-size: 15px;
+    color: lightgray;
+}
+
+.preview{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    width: 75%;
+    margin-top: 50px;
+    background-color: rgb(247, 247, 247);
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+
+}
+
+.foto{
+    width: 300px;
+    height: 300px;
+    background-image: url(./img/6.jpg);
+    background-position: right bottom;
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius:5px;
+    position: relative;
+    bottom: 10px;
+    
+}
+
+.name-preview{
+    font-size: 30px;
+}
+
+.main-preview{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+    top: 450px;
+}
+
+.container-1{
+    border: 2px solid black;
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    
+}
+
+.container-2{
+    border: 2px solid black;
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.container-3{
+    border: 2px solid black;
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.diploma{
+    font-size: 35px;
+    text-align: center;
+}
+
+.serfitikat{
+    font-size: 35px;
+    text-align: center;
+}
+
+.letter-of-appreciation{
+    font-size: 35px;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    background-color: brown;
+    position:relative;
+    top: 600px;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact{
+    font-size: 25px;
+    font-family: 'DynaPuff', cursive;
+}
+
+.social-media{
+    font-size: 25px;
+    flex-direction: column;
+    font-family: 'DynaPuff', cursive;
+}
+
+@media (max-width: 368px) {
+    header{
+        width: 100%;
+        border: 2px solid black;
+        background-color: grey;
+        border-radius: 8px;
+        font-family: 'Russo One', sans-serif;
+        color: lightgray;
+        text-align: center;
+    }
+
+    .preview{
+        width: 100%;
+        height: 1200px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid black;
+        border-radius: 8px;
+        margin-top: 25px;
+        padding: 5px;
+        background-color: rgb(247, 247, 247);
+    }
+
+    .foto{
+        width: 300px;
+        height: 300px;
+        background-image: url(./img/6.jpg);
+        background-position: right bottom;
+        border: 2px solid black;
+        border-radius: 8px;
+        margin: 10px;
+        position: relative;
+        align-items: center;
+    }
+
+    .name-preview{
+       text-align: center;
+    }
+
+    .container-1{
+        border: 2px solid black;
+        width: 150px;
+        height: 300px;
+        border-radius: 15px;
+        margin: 0 auto;
+        font-size: 10px;
+    }
+    
+    .container-2{
+        border: 2px solid black;
+        width: 150px;
+        height: 300px;
+        border-radius: 15px;
+        margin: 0 auto;
+        font-size: 10px;
+    }
+    
+    .container-3{
+        border: 2px solid black;
+        width: 150px;
+        height: 300px;
+        border-radius: 15px;
+        margin: 0 auto;
+        font-size: 10px;
+    }
+
+    .container{
+        width: 100%;
+        height: 1000px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 450px;
+    }
+
+    .diploma{
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .serfitikat{
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .letter-of-appreciation{
+        font-size: 15px;
+        text-align: center;
+    }
+}
